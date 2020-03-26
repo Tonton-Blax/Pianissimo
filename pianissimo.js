@@ -13,8 +13,8 @@ function noteConstructor(name) {
 function intervalConstructor(arg1, arg2) {
   return new Interval(arg1, arg2);
 }
-function scaleConstructor(tonic, type) {
-  return new Scale(tonic, type);
+function scaleConstructor(tonic, type, degree) {
+  return new Scale(tonic, type, degree);
 }
 function chordConstructor(arg1, arg2) {
   return new Chord(arg1, arg2);
